@@ -1,24 +1,49 @@
+@font-face {
+    font-family: lora;
+    src: url(fonts/Lora-Bold.ttf);
+  }
+
+@font-face {
+    font-family: unifrakturCook;
+    src: url(fonts/UnifrakturCook-Bold.ttf);
+}
+
+@font-face {
+    font-family: notoSans;
+    src: url(fonts/NotoSans-Regular.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
     display: grid;
     grid-template: 1fr 6fr / 1fr 6fr;
-}
-
-.grid1 {
-    border: 1px solid black;
+    font-family: "lora", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .sidebar {
+    background-color: #06b6d4;
+    display: grid;
     grid-row: span 2;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: 1fr 3fr;
+    align-content: start;
+    align-items: center;
+    font-size: 1rem;
+    grid-auto-rows: 30px;
 }
 
-body img{
-    width: 25px;
+.sidebar img {
+    justify-self: center;
+}
+
+.sidebar img:first-of-type {
+    width: 30px;
     height: auto;
 }
 
-.title img {
-    width: 50px;
+body img{
+    width: 20px;
     height: auto;
 }
