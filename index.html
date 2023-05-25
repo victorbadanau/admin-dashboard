@@ -35,12 +35,12 @@
         <p>Privacy</p>
     </nav>
 
-    <header class="grid1 header">
+    <header class="header">
         <section class="first">
-            <div class="column1">
-                <img src="icons/search.svg" alt="search">
-                <div class="search-input"></div>
-            </div>
+            <form class="column1" action="#" method="post">
+                <label for="search"><img src="icons/search.svg" alt="search"></label>
+                <input type="text" id="search">
+            </form>
             <div class="column2">
                 <img src="icons/bell-ring.svg" alt="ring-bell">
                 <div class="background">
@@ -60,168 +60,163 @@
                 </div>
             </div>
             <div class="column2">
-                <div class="button">New</div>
-                <div class="button">Upload</div>
-                <div class="button">Share</div>
+                <button class="button">New</button>
+                <button class="button">Upload</button>
+                <button class="button">Share</button>
             </div>
         </section>
     </header>
 
-    <main class="grid1 main">
+    <main class="main">
         <section class="projects">
-            <heading>Your Projects</heading>
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
+            <heading class="heading">Your Projects</heading>
+
+            <div class="project">
+                <div>
                     <p>Super Cool Project</p>
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque 
-                        ipsa quae ab illo inventore veritatis et quasi architecto beatae 
+                        accusantium doloremque laudantium, totam rem aperiam, eaque
+                        ipsa quae ab illo inventore veritatis et quasi architecto beatae
                         vitae dicta sunt explicabo.
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
         
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
+            <div class="project">
+                <div>
                     <p>Less Cool Project</p>
                     <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit 
-                        aspernatur aut odit aut fugit, sed quia consequuntur 
-                        magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                        Nemo enim ipsam voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
             
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
+            <div class="project">
+                <div>
                     <p>Impossible App</p>
                     <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor 
-                        sit amet, consectetur, adipisci velit, sed quia non 
-                        numquam eius modi tempora incidunt ut labore et dolore 
-                        magnam aliquam quaerat voluptatem. 
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor
+                        sit amet, consectetur, adipisci velit, sed quia non
+                        numquam eius modi tempora incidunt ut labore et dolore
+                        magnam aliquam quaerat voluptatem.
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
             
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
+            <div class="project">
+                <div>
                     <p>Easy Peasy App</p>
                     <p>
-                        Ut enim ad minima veniam, quis nostrum exercitationem 
-                        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea 
-                        commodi consequatur? Quis autem vel eum iure reprehenderit 
-                        qui in ea voluptate velit esse quam nihil molestiae consequatur, 
-                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? 
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                        commodi consequatur? Quis autem vel eum iure reprehenderit
+                        qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
             
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
-                    <p>Ad Blocker</p>
+            <div class="project">
+                <div>
+                    <p>Add Blocker</p>
                     <p>
-                        At vero eos et accusamus et iusto 
-                        odio dignissimos ducimus qui blanditiis praesentium 
-                        voluptatum deleniti atque corrupti quos dolores et quas 
-                        molestias excepturi sint occaecati cupiditate non provident, 
-                        similique sunt in culpa qui officia deserunt mollitia animi, 
+                        At vero eos et accusamus et iusto
+                        odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum deleniti atque corrupti quos dolores et quas
+                        molestias excepturi sint occaecati cupiditate non provident,
+                        similique sunt in culpa qui officia deserunt mollitia animi,
                         id est laborum et dolorum fuga.
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
-            
-            <div class="project-item">
-                <div class="side-style"></div>
-                <div class="content">
+        
+            <div class="project">
+                <div>
                     <p>Money Maker</p>
                     <p>
-                        Et harum quidem rerum facilis est et expedita distinctio. 
-                        Nam libero tempore, cum soluta nobis est eligendi optio cumque 
+                        Et harum quidem rerum facilis est et expedita distinctio.
+                        Nam libero tempore, cum soluta nobis est eligendi optio cumque
                         nihil impedit quo minus id quod maxime placeat facere
                     </p>
-                    <div>
-                        <img src="icons/star-plus.svg" alt="save-favorite">
-                        <img src="icons/eye-plus.svg" alt="to-view">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
+                </div>
+                <div>
+                    <img src="icons/star-plus.svg" alt="save-favorite">
+                    <img src="icons/eye-plus.svg" alt="to-view">
+                    <img src="icons/share.svg" alt="share">
                 </div>
             </div>
         </section>
         <section class="announcements">
-            <heading>Announcements</heading>
-            <div class="an-content">
+            <heading class="heading">Announcements</heading>
+            <div class="content">
                 <div class="announcement">
                     <p>Site Maintenance</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Aenean commodo ligula eget dolor. Aenean massa. 
-                        Cum sociis natoque penatibus et magnis dis parturient montes, 
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
                         In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
                     </p>
                 </div>
                 <div class="announcement">
                     <p>Community Share Day</p>
                     <p>
-                        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
-                        Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
-                        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
-                        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. 
-                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper 
-                        ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget 
+                        Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                        Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
+                        ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
                         condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
                     </p>
                 </div>
                 <div class="announcement">
                     <p>Updated Privacy Policy</p>
                     <p>
-                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. 
-                        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero 
-                        venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus 
-                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales 
+                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                        venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales
                         sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
                     </p>
                 </div>
             </div>
         </section>
         <section class="trending">
-            <heading>Trending</heading>
-            <div class="tr-content">
+            <heading class="heading">Trending</heading>
+            <div class="content">
                 <div class="profile-icon">
                     <img src="icons/wolf.png" alt="wolf">
                 </div>
